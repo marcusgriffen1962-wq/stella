@@ -1,0 +1,15 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Stella AI
+Comment=Voice AI Chatbot with LM Studio & Kokoro TTS
+Exec=/home/marcus/Documents/stella/launch.sh
+Icon=/home/marcus/Documents/stella/static/assets/icon.png
+Terminal=false
+StartupNotify=true
+Categories=Utility;AudioVideo;Network;
+Actions=NewWindow;
+
+[Desktop Action NewWindow]
+Name=Open Stella
+Exec=/home/marcus/Documents/stella/launch.sh
